@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge"> <!--parent="Theme.AppCompat.Light.DarkActionBar"> -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimarySoft</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="cardViewStyle">@style/CardView</item>
+
+    </style>
+
+    <style name="PSButton.Default.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/md_grey_600</item>
+    </style>
+
+    <style name="PSButton.LightGreenA100" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_light_green_A100</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Black" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_black_1000</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
